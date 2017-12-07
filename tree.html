@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tree view</title>
+	<script src="https://unpkg.com/vue"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <style>
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        .col {
+            display: inline-block;
+            max-width: 50%;
+            min-width: 360px;
+            margin-right: 30px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        #root-container {
+            margin: 20px;
+            width: 100%;
+        }
+
+        .tree {
+            height: 400px;
+            overflow-y: scroll;
+        }
+    /* Component container */
+    .tree-view__root {
+        color: #555;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+        padding: 4px 6px;
+        min-width: 420px;
+        display: block;
+    }
+
+    /* Chevrons, loader and buttons */
+    .tree-view__root i {
+        cursor: pointer;
+    }
+
+    /* Crete root */
+    .tree-view__root > i.fa-plus {
+        position: relative;
+        display: block;
+        float: right;
+        right: -1px;
+    }
+    .tree-view__root i.fa:hover {
+        color: #2f2f2f;
+    }
+
+    /* Node container */
+    .tree-view__node {
+        margin-left: 16px;
+        overflow: hidden;
+    }
+    /* First level node container */
+    .tree-view__root > .tree-view__node {
+        margin-left: 0;
+    }
+
+    /* Selected tree view value */
+    span.tree-view__node-name {
+        margin-left: 15px;
+        cursor: pointer;
+    }
+    span.tree-view__node-name.tree-view__bold {
+        font-weight: bolder;
+    }
+    /* Labels with left chevron icon */
+    i.fa-angle-up + span.tree-view__node-name,
+    i.fa-angle-down + span.tree-view__node-name {
+        margin-left: 0;
+    }
+
+    /* Node edit buttons block */
+    .tree-view__node-edit {
+        min-width: 44px;
+        display: inline;
+    }
+
+    /* Hide selected node edit buttons */
+    .tree-view__node-name > .tree-view__node-edit.tree-view__hide > i {
+        display: none;
+    }
+    .tree-view__node-name:hover > .tree-view__node-edit.tree-view__hide > i {
+        display: inherit;
+    }
+.tree-view__node-disc{
+display:block;
+font-size:10px;
+}
+    /* Name edit input */
+    input.tree-view__name-edit-input, input.tree-view__disc-edit-input {
+        width: 140px;
+        display: inline;
+        height: 26px;
+        padding: 2px 6px;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+        -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+        float: left;
+    }
+
+    /* Text style */
+    span.tree-view__node-name,
+    input.tree-view__name-edit-input {
+        color: #555;
+        font-size: 14px;
+        font-family: inherit;
+        text-decoration: none;
+    }
+    </style>
+<script type="text/x-template" id="item-template">
+    <div :class="{'tree-view__root': isRoot, 'tree-view__node': isNode}">
+
+        <template v-if="isRoot">
+            <i
+                class="fa fa-plus"
+                v-if="!readonly"
+                @click="addChildNode()"
+                title="Add root node"
+            > </i>
+
+            <tree-view
+                v-for="(node, idx) in nodes"
+                :key="node.id"
+                :node="node"
+                :readonly="readonly"
+                :parentNodes="nodes"
+                :parentOwnIndex="idx"
+                v-model="selectedId"
+            > </tree-view>
+        </template>
+
+        <template v-else-if="isNode">
+            <div class="tree-view__node-name">
+                <i
+                    v-if="childrenExists"
+                    class="fa"
+                    :class="{
+                        'fa-angle-up': isOpen && !isLoading,
+                        'fa-angle-down': !isOpen || isLoading
+                    }"
+                    :title="(isOpen ? 'Hide' : 'Show') + ' child nodes'"
+                    @click="selectNode(true)"
+                > </i>
+
+                <template v-if="!isEditing">
+                    <span
+                        class="tree-view__node-name"
+                        :class="{'tree-view__bold': isSelected}"
+                        @click="selectNode()"
+                    >
+                        {{ node.name }}
+                    </span>
+                    <i
+                        class="fa fa-spinner fa-pulse fa-fw"
+                        v-if="childrenExists && isLoading"
+                    > </i>
+                    <div v-if="!readonly && isSelected && !isLoading" class="tree-view__node-edit tree-view__hide">
+                        <i class="fa fa-pencil-square-o" @click="editNode()" title="Edit node"> </i>
+                        <i class="fa fa-plus"  @click="addChildNode()" title="Add child node"> </i>
+                        <i class="fa fa-plus"  @click="addPrevSiblingNode()" title="Add prev sibling node"> </i>
+                        <i class="fa fa-trash-o" @click="deleteNode()" title="Recursively remove mode"> </i>
+                    </div><br/>
+					<span
+                        class="tree-view__node-disc"
+                        :class="{'tree-view__bold': isSelected}"
+                        @click="selectNode()"
+                    >
+                        {{ node.disc }}
+                    </span>
+                </template>
+
+                <div v-else-if="!readonly" class="tree-view__node-edit">
+                    <input
+                        class="tree-view__name-edit-input"
+                        :value="node.name"
+                        ref="nameInput"
+                        @keydown.enter="saveNode()"
+                        @keyup.esc="editNode(false)"
+                    >
+                    <input
+                            class="tree-view__disc-edit-input"
+                            :value="node.disc"
+                            ref="discInput"
+                            @keydown.enter="saveNode()"
+                            @keyup.esc="editNode(false)"
+                    >
+                    <i class="fa fa-check" @click="saveNode()" title="Save node"> </i>
+                    <i class="fa fa-times" @click="editNode(false)" title="Cancel node edit"> </i>
+                </div>
+            </div>
+
+            <div v-show="isOpen" v-if="hasChildren">
+                <tree-view
+                    v-for="(child, idx) in node.children"
+                    :key="node.id"
+                    :node="child"
+                    :readonly="readonly"
+                    :parentNodes="node.children"
+                    :parentOwnIndex="idx"
+                    v-model="selectedId"
+                    ref="children"
+                > </tree-view>
+            </div>
+			</template>
+    </div>
+</script>
+    <div id="root-container">
+
+        <div class="col">
+            <label>Editable tree</label>
+
+            <tree-view
+                    :nodes="categories0"
+                    :readonly="false"
+                    v-model="selectedId0"
+                    class="tree"
+            ></tree-view>
+
+            <p>Selected ID: {{ selectedId0 }}</p>
+        </div>
+
+        <div>
+            <pre>
+                {{$data}}
+            </pre>
+        </div>
+
+
+
+
+    </div>
+<script>
+
+Vue.component('tree-view',{
+	template: '#item-template',
+data: function () {
+     return {
+                // Inner properties
+                isOpen: false,
+                isLoading: null,
+                isEditing: false,
+                selectedId: this.value
+            }
+  },
+	//treeData: data,
+    // Obtained parameters
+        props: {
+            // Single node
+            node: {
+                type: Object,
+                default: null
+            },
+            // Nodes list
+            nodes: {
+                type: Array,
+                default: null
+            },
+            // Component value
+            value: {
+                default: null,
+                twoWay: true
+            },
+            // Readonly flag
+            readonly: {
+                type: Boolean,
+                default: false
+            },
+
+            parentNodes: {
+              type: Array,
+              default: null
+            },
+            parentOwnIndex: {
+              type: Number,
+              default: null
+            }
+        },
+		computed: {
+            /**
+             * Possible component's custom events
+             *
+             * @return {Object}
+             */
+            events () {
+                return {
+                    NODE_ADD: 'node-add',
+                    NODE_BEFORE_DELETE: 'node-before-delete',
+                    NODE_DELETE: 'node-delete',
+                    NODE_AFTER_DELETE: 'node-after-delete',
+                    NODE_BEFORE_SAVE: 'node-before-save',
+                    NODE_AFTER_SAVE: 'node-after-save'
+                };
+            },
+
+            isSelected () {
+                let result = this.isNode && this.selectedId == this.node.id;
+                if (!result && this.isEditing) {
+                    this.isEditing = false;
+                }
+                return result;
+            },
+
+            /**
+             * Check, whether component is a root element
+             *
+             * @returns {Boolean}
+             */
+            isRoot () {
+                return typeof this.nodes == 'object' && this.nodes !== null;
+            },
+
+
+            isNode () {
+                return Boolean(!this.isRoot && typeof this.node == 'object' && this.node);
+            },
+
+            /**
+             * Check, whether item has children
+             *
+             * @returns {Boolean}
+             */
+            childrenExists () {
+                // Bad model
+                if (!this.node) {
+                    return false;
+                }
+                // Child nodes has not loaded yet, but available
+                if (this.canLoadChildren) {
+                    return true;
+                }
+                // Children nodes already or not
+                return this.hasChildren;
+            },
+
+            /**
+             * Check, whether node has already loaded children
+             *
+             * @return {Boolean}
+             */
+            hasChildren () {
+                return Boolean(
+                    this.node
+                    && Array.isArray(this.node.children)
+                    && this.node.children.length > 0
+                );
+            },
+
+
+            /**
+             * New, yet not saved node flag
+             *
+             * @return {Boolean}
+             */
+            isNew () {
+                return this.node && this.node.id < 0;
+            }
+        },
+		 methods: {
+            /**
+             * Toggle child subtree visibility
+             *
+             * @param {Boolean} forceToggle
+             */
+            selectNode (forceToggle = false) {
+                // Check whether, node already selected, opened and click was without force toggle parameter
+                if (this.isSelected && this.isOpen && !forceToggle) {
+
+                    return true;
+                }
+                // Update value and emit 'input' event
+                this.updateValue();
+                // Exit if node closes or has no children
+                if (!this.childrenExists || this.isLoading) {
+
+                    return false;
+                }
+
+                // Don't close node if click was with force toggle parameter (Click on name, not chevron)
+                if (forceToggle || !this.isOpen) {
+                    this.isOpen = !this.isOpen;
+                }
+            },
+
+            /**
+             * Set node children list
+             *
+             * @param {Array} children
+             */
+            setChildren (children) {
+                if (!this.node) {
+                    this.node = newNode();
+                }
+                this.node.children = children;
+            },
+
+            /**
+             * Set value to this.node.id and call this method in parent component
+             *
+             * @param {Number|Boolean|String} newValue
+             */
+            updateValue (newValue = null) {
+                this.selectedId = arguments.length || !this.node ? newValue : this.node.id;
+                // If parent is TreeView node or root, set value to it
+                if (this.$parent && (this.$parent.isNode || this.$parent.isRoot) && typeof this.$parent.updateValue === 'function') {
+                    this.$parent.updateValue(this.selectedId);
+                }
+                this.$emit('input', this.selectedId);
+            },
+
+            /**
+             * Start new child node creation to selected
+             */
+            addChildNode () {
+                let node = newNode();
+                if (this.isNode) {
+                    if (!Array.isArray(this.node.children)) {
+                        this.node.children = [];
+                    }
+                    this.node.children.push(node);
+                } else {
+                    if (!Array.isArray(this.nodes)) {
+                        this.nodes = [];
+                    }
+                    this.nodes.push(node);
+                }
+                this.$emit(this.events.NODE_ADD, node);
+                this.isOpen = true;
+            },
+
+            addPrevSiblingNode() {
+                let node = newNode();
+
+                this.parentNodes.splice(this.parentOwnIndex, 0, node);
+
+                return;
+
+                if (this.isNode) {
+                    if (!Array.isArray(this.node.children)) {
+                      this.node.children = [];
+                    }
+                    this.node.children.push(node);
+                } else {
+                    if (!Array.isArray(this.nodes)) {
+                        this.nodes = [];
+                    }
+                    this.nodes.push(node);
+                }
+                this.$emit(this.events.NODE_ADD, node);
+            },
+
+            /**
+             * Recursively delete selected node
+             */
+            deleteNode () {
+                if (!confirm("Really delete node and all it's children?") || !this.isNode) {
+                    return false;
+                }
+                this.$emit(this.events.NODE_BEFORE_DELETE, this.node.id);
+                    this.$parent.deleteChildNode(this.node.id);
+
+            },
+
+            /**
+             * Child node delete
+             *
+             * @param {number} childId
+             */
+            deleteChildNode (childId) {
+                let spliceChild = (nodes, spliceId) => {
+                    for (let i in nodes) {
+                        if (nodes.hasOwnProperty(i) && spliceId == nodes[i].id) {
+                            this.$emit(this.events.NODE_DELETE, nodes[i]);
+                            nodes.splice(i, 1);
+                            return true;
+                        }
+                    }
+                    return false;
+                };
+
+                if (spliceChild(this.isNode ? this.node.children : this.nodes, childId)) {
+                    this.updateValue(null);
+                }
+            },
+
+            /**
+             * Start or end node edit
+             *
+             * @param {Boolean} isEdit
+             */
+            editNode (isEdit = true) {
+                this.isEditing = isEdit;
+            },
+
+            /**
+             * Save node
+             */
+            saveNode () {
+                this.$emit(this.events.NODE_BEFORE_SAVE, this.$refs.nameInput.value, this.$refs.discInput.value);
+                    this.node.name = this.$refs.nameInput.value;
+                    this.node.disc = this.$refs.discInput.value;
+                    this.isEditing = false;
+                    this.$emit(this.events.NODE_AFTER_SAVE, this.node);
+            }
+        },
+		watch: {
+            value (newValue) {
+                this.selectedId = newValue;
+            }
+        },
+
+        // Component create event handler
+        created () {
+
+        }
+
+    });
+	var demo = new Vue({
+  el: '#root-container',
+  data: {
+    selectedId0: null,
+        selectedId1: null,
+        categories0: [
+            {id: 1, name: "priklad1", children: 1, disc: ""},
+            {id: 195, name: "priklad2", disc: "", children: [{id: 58449, name: "priklad5", children: 1, disc: ""}]},
+            {id: 292, name: "priklad3", disc: 'discription', children: 1, disc: ""},
+            {id: 331, name: "priklad4", children: 1, disc: ""},
+            {id: 589, name: "priklad5", disc: 'discription', children: 1, disc: ""},
+            {id: 1174, name: "priklad6", children: 1, disc: ""},
+            {id: 1426, name: "priklad6", children: 1, disc: ""},
+            {id: 1523, name: "priklad6", children: 1, disc: ""},
+            {id: 1654, name: "priklad6",disc: 'discription', children: 1},
+            {id: 1736, name: "priklad6", children: 1, disc: ""},
+            {id: 1998, name: "priklad6", children: 1, disc: ""},
+            {id: 2065, name: "priklad6",disc: 'discription', children: 1},
+            {id: 2162, name: "priklad6", children: 1, disc: ""},
+            {id: 2327, name: "priklad6", children: 1, disc: ""},
+            {id: 2359, name: "priklad6", children: 1, disc: ""},
+            {id: 2383, name: "priklad6", children: 1, disc: ""}
+        ],
+        // Preloaded tree
+
+  }
+})
+
+var newNode = function newNode() {
+        return {
+                id: -(Math.floor(Math.random() * 899999) + 100000),
+                name: 'New item',
+                disc: "",
+                children: []
+        };
+};</script>
+
+</body>
+</html>
