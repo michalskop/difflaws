@@ -1,0 +1,24 @@
+Zákon:
+Část    ČÁST PRVNÍ
+Hlava   Hlava I
+Díl Díl 1
+Oddíl   Oddíl 1
+Pododdíl    Pododdíl 1
+
+Paragraf    § 1
+Odstavec    (1)
+Pododstavec (=písmeno)  a)
+Bod 1.
+
+Ústavní zákon (navíc):
+Článek  Čl. 1
+
+Novely:
+Článek  Čl. 1
+Bod 1.
+
+
+Další:
+Věta
+Preambule
+Poznámka pod čarou  1)

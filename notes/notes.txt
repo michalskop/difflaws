@@ -1,0 +1,143 @@
+Different levels in CZ:
+
+Článek  Article(?)
+Bod
+Část    Part
+Hlava   Chapter
+Díl
+Paragraf    Article/Section (?)
+Odstavec    Paragraph
+Písmeno
+Věta
+Oddíl
+Preambule   Preamble
+
+
+Článek (+ title) (číslovaný římsky)
+Číslovaný list (bod?) (v rámci článku)
+https://www.zakonyprolidi.cz/cs/2009-1
+
+Část (+ title)      Part
+Hlava (+ title)     Chapter
+Díl (+ title)
+Paragraph (+ title) Section / Article
+Skupina paragrafů - title
+Odstavec číslovaný  - paragraph
+/ Věta
+/ písmeno
+    / číslovaný bod
+https://www.zakonyprolidi.cz/cs/2009-280?citace=1#cast2
+
+Poznámka pod čarou (a odkaz na ni)
+https://www.zakonyprolidi.cz/cs/2009-2
+
+Preambule   Preamble
+řádek (konec řádku)
+Článek      Article
+/ odstavec
+/ písmeno
+title - skupina odstavců
+https://www.zakonyprolidi.cz/cs/1993-1
+
+Hlava
+Oddíl (první, ...)
+podpisy před samotnou listinou
+https://www.zakonyprolidi.cz/cs/1993-2?citace=1
+
+
+
+
+Členění právního předpisu, s výjimkou novely, na části, hlavy, díly, oddíly, pododdíly a jejich označování
+
+Rozsáhlejší právní předpis, s výjimkou novely, lze členit na části. Části lze členit na hlavy, hlavy na díly a díly na oddíly. V případě zvlášť rozsáhlých zákonů lze oddíly členit na pododdíly. 
+
+Části, hlavy, díly, oddíly a pododdíly podle odstavce 1 se označují takto: 
+
+je-li právní předpis členěn na části 
+„ČÁST PRVNÍ", „ČÁST DRUHÁ", „ČÁST TŘETÍ" atd., 
+
+je-li část členěna na hlavy 
+„Hlava I", „Hlava II", „Hlava III" atd., 
+
+je-li hlava členěna na díly 
+„Díl 1", „Díl 2", „Díl 3" atd., 
+
+je-li díl členěn na oddíly 
+„Oddíl 1", „Oddíl 2", „Oddíl 3" atd. a 
+
+je-li oddíl členěn na pododdíly 
+
+„Pododdíl 1“, „Pododdíl 2“, „Pododdíl 3“ atd. 
+
+ Člení-li se právní předpis podle odstavce 1, označují se části v souvislém pořadí, stejně jako hlavy v rámci částí, díly v rámci hlav, oddíly v rámci dílů a pododdíly v rámci oddílů.
+ 
+ Členění právního předpisu, s výjimkou ústavního zákona a novely, na paragrafy, odstavce, pododstavce, body a jejich označování 
+Každý právní předpis, s výjimkou ústavního zákona a novely, se člení na paragrafy. Paragraf lze členit na odstavce, odstavce na pododstavce a pododstavce na body. Text paragrafu, který není členěn na odstavce, lze členit na pododstavce a pododstavce na body. 
+
+Paragraf se označuje paragrafovou značkou (§) a arabským číslem bez tečky, umístěnými nad textem paragrafu uprostřed; čísla se u paragrafových značek uvádějí v souvislém pořadí. Nově vkládaný paragraf se označuje číslem shodným s číslem paragrafu, za který se nový paragraf vkládá s tím, že k číslu vkládaného paragrafu se připojí malé písmeno „a". Obdobně se postupuje, je-li za stávající paragraf vkládáno najednou nebo postupně více nových paragrafů (např. jsou-li za stávající § 2 vkládány nové paragrafy, označují se takto: „§ 2a", „§ 2b", „§ 2c" atd.). 
+
+Odstavce se na začátku označují arabským číslem bez tečky v kulatých závorkách; odstavce se číslují v souvislém pořadí. 
+
+Pododstavce se na začátku označují malými písmeny a kulatou závorkou (poloviční závorkou); písmena se uvádějí v abecedním pořadí s tím, že písmeno ch) a písmena s háčkem, kroužkem nebo čárkou se pro označení pododstavců nepoužívají. Jsou-li všechna písmena vyčerpána, nepoužijí se zdvojená písmena, ale další pododstavce nutno zařadit do nového odstavce, na jehož začátek se uvede odpovídající úvodní část ustanovení. 
+
+Body se na začátku označují arabskými čísly s tečkou; čísla označující body se uvádějí v souvislém pořadí. 
+
+Pododstavce nebo body se oddělují čárkou; pokud však text pododstavce nebo bodu je samostatnou větou v jazykovém (nikoliv legislativním) smyslu, oddělují se středníkem. V textu následujícím za označením pododstavce nebo bodu se uvádí malé počáteční písmeno. 
+
+Z výše uvedeného vyplývá například toto členění právního předpisu: 
+
+„§ 1 
+
+            (1) ........................................................ 
+
+            (2) ........................................................ 
+
+            (3) ........................................................ 
+
+  
+
+§ 1a 
+
+            ......................................…....................... 
+
+            a) ............................................................, 
+
+            b) ............................................................. 
+
+                 1. ........................................................, 
+
+        2. .........................................................; 
+
+        3. ........................................................".
+ 
+Členění ústavního zákona 
+(1) Ústavní zákon se člení na články. Článek se označuje zkratkou „Čl.“ a arabským číslem bez tečky, umístěnými nad textem článku uprostřed. 
+
+Čísla se u zkratky „Čl." uvádějí v souvislém pořadí, například: 
+
+„Čl. 1 
+
+Čl. 2 
+
+Čl. 3". 
+
+Pro členění ústavního zákona na části, hlavy, díly, oddíly, popř. pododdíly a pro jejich označování a pro členění článků na odstavce, pododstavce a body a pro jejich označování se použije obdobně, co bylo řečeno výše.
+ 
+ 
+To se týká samotných "hotovych" zákonů. Novely (které nemají "samostatnou existenci" ale pouze mění či doplňují stávající zákony, mají trochu jinou systematiku. Člení se na články a body, každý bod novelizuje jedno ustanovení.
+ 
+
+Title vs. Caption
+"Účinnost" vs. "Část třetí"
+
+
+Úvod:
+číslo zákona
+Zákon
+(České národní rady)
+ze dne ...
+název
+(ve znění)
+Parlament se usnesl ...
+
+Závěr: podpisy

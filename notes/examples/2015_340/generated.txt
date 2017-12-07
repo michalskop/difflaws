@@ -1,0 +1,172 @@
+§ 1
+
+Předmět úpravy
+
+Tento zákon upravuje zvláštní podmínky účinnosti některých smluv, uveřejňování těchto smluv prostřednictvím registru smluv a registr smluv.
+
+§ 2
+
+Uveřejňované dokumenty
+
+(1) Prostřednictvím registru smluv se povinně uveřejňuje soukromoprávní smlouva, jakož i smlouva o poskytnutí dotace nebo návratné finanční výpomoci, jejíž stranou je
+
+a) Česká republika,
+
+b) územní samosprávný celek, včetně městské části nebo městského obvodu územně členěného statutárního města nebo městské části hlavního města Prahy,
+
+c) státní příspěvková organizace,
+
+d) státní fond,
+
+e) veřejná výzkumná instituce nebo veřejná vysoká škola,
+
+f) dobrovolný svazek obcí,
+
+g) regionální rada regionu soudržnosti,
+
+h) příspěvková organizace územního samosprávného celku,
+
+i) ústav založený státem nebo územním samosprávným celkem,
+
+j) obecně prospěšná společnost založená státem nebo územním samosprávným celkem,
+
+k) státní podnik nebo národní podnik,
+
+l) zdravotní pojišťovna,
+
+m) Český rozhlas nebo Česká televize, nebo
+
+n) právnická osoba, v níž má stát nebo územní samosprávný celek sám nebo s jinými územními samosprávnými celky většinovou majetkovou účast, a to i prostřednictvím jiné právnické osoby.
+
+(2) Odstavec 1 se nevztahuje na právnickou osobu založenou podle jiného než českého práva, která působí převážně mimo území České republiky.
+
+§ 3
+
+Výjimky z povinnosti uveřejnění
+
+(1) Prostřednictvím registru smluv se neuveřejňují informace, které nelze poskytnout při postupu podle předpisů upravujících svobodný přístup k informacím.
+
+(2) Povinnost uveřejnit prostřednictvím registru smluv se nevztahuje na
+
+a) smlouvu vzniklou v rámci právního jednání s fyzickou osobou, která jedná mimo rámec své podnikatelské činnosti; to neplatí, jde-li o převod vlastnického práva osoby uvedené v § 2 odst. 1 k hmotné nemovité věci,
+
+b) technickou předlohu, návod, výkres, projektovou dokumentaci, model, způsob výpočtu jednotkových cen, vzor a výpočet,
+
+c) smlouvu, která se týká činnosti zpravodajských služeb a Generální inspekce bezpečnostních sborů nebo činnosti orgánů činných v trestním řízení při předcházení trestné činnosti, vyhledávání nebo odhalování trestné činnosti nebo stíhání trestných činů nebo zajišťování bezpečnosti nebo obrany České republiky,
+
+d) smlouvu, jejíž plnění je prováděno převážně mimo území České republiky,
+
+e) smlouvu uzavřenou adhezním způsobem, jejíž smluvní stranou je právnická osoba uvedená v § 2 odst. 1 písm. e), k), l) nebo n), s výjimkou smluv uzavřených na základě zadávacího řízení podle zákona o veřejných zakázkách,
+
+f) smlouvy, objednávky a faktury, které se týkají činnosti orgánů, jejich členů a organizačních složek státu uvedených v § 8 odst. 3 zákona č. 218/2000 Sb., o rozpočtových pravidlech a o změně některých souvisejících zákonů (rozpočtová pravidla), a činnosti správců jejich kapitol,
+
+g) smlouvu uzavřenou na komoditní burze, na regulovaném trhu nebo evropském regulovaném trhu, v dražbě nebo v aukci anebo jiným obdobným postupem, s nímž je spojen zvláštní způsob přechodu nebo převodu vlastnického práva,
+
+h) smlouvu, jejíž alespoň jednou smluvní stranou je akciová společnost, jejíž cenné papíry byly přijaty k obchodování na regulovaném trhu nebo evropském regulovaném trhu, jde-li o akciovou společnost, v níž má stát nebo územní samosprávný celek sám nebo s jinými územními samosprávnými celky většinovou majetkovou účast, a to i prostřednictvím jiné právnické osoby,
+
+i) smlouvu, jestliže výše hodnoty jejího předmětu je 50000 Kč bez daně z přidané hodnoty nebo nižší,
+
+j) smlouvu, která je uzavřena s autorem nebo výkonným umělcem v souvislosti s autorským dílem nebo uměleckým výkonem,
+
+k) smlouvu o poskytování a úhradě zdravotních služeb hrazených z veřejného zdravotního pojištění a smlouvu o úhradě léčivých přípravků obsahujících očkovací látky pro pravidelná očkování podle antigenního složení očkovacích látek stanoveného Ministerstvem zdravotnictví podle zákona o ochraně veřejného zdraví, které jsou uveřejňovány podle zákona o veřejném zdravotním pojištění,
+
+l) smlouvu, jejíž alespoň jednou smluvní stranou je obec, která nevykonává rozšířenou působnost, příspěvková organizace touto obcí zřízená nebo právnická osoba, v níž má taková obec sama nebo s jinými takovými obcemi většinovou účast.
+
+§ 4
+
+Registr smluv
+
+(1) Zřizuje se registr smluv jako informační systém veřejné správy, který slouží k uveřejňování smluv podle tohoto zákona.
+
+(2) Správcem registru smluv je Ministerstvo vnitra.
+
+(3) Registr smluv je přístupný způsobem umožňujícím bezplatný dálkový přístup.
+
+(4) Správce registru smluv neodpovídá za správnost smluv a metadat smluv uveřejněných prostřednictvím registru smluv.
+
+§ 5
+
+Způsob uveřejnění
+
+(1) Uveřejněním smlouvy prostřednictvím registru smluv se rozumí vložení elektronického obrazu textového obsahu smlouvy v otevřeném a strojově čitelném formátu a rovněž metadat podle odstavce 5 do registru smluv.
+
+(2) Osoba uvedená v § 2 odst. 1 nebo smluvní strana smlouvy zašle smlouvu správci registru smluv k uveřejnění prostřednictvím registru smluv bez zbytečného odkladu, nejpozději však do 30 dnů od uzavření smlouvy. Správce registru smluv uveřejní smlouvu prostřednictvím registru smluv bezodkladně po jejím doručení; uveřejnění smlouvy prostřednictvím registru smluv se provádí zpravidla automatizovaně.
+
+(3) Zaslání smlouvy správci registru smluv se provede na elektronickém formuláři do datové schránky zřízené správci registru smluv pro tento účel. Správce registru smluv uveřejní elektronický formulář na portálu veřejné správy.
+
+(4) V případě, že je prostřednictvím registru smluv uveřejněna smlouva, správce registru smluv potvrdí uveřejnění potvrzením, které zašle do datové schránky, ze které mu byla smlouva zaslána k uveřejnění prostřednictvím registru smluv; zaslání potvrzení se provádí zpravidla automatizovaně. Správce registru smluv v potvrzení uvede metadata smlouvy podle odstavce 5 a potvrzení zabezpečí způsobem zajišťujícím integritu, případně původ dat.
+
+(5) Smlouva, která nebyla uveřejněna způsobem uvedeným v odstavci 1 nebo jejíž metadata neobsahují a) identifikaci smluvních stran,
+
+b) vymezení předmětu smlouvy,
+
+c) cenu, a pokud ji smlouva neobsahuje, hodnotu předmětu smlouvy, lze-li ji určit,
+
+d) datum uzavření smlouvy,
+
+se nepovažuje za uveřejněnou prostřednictvím registru smluv.
+
+(6) Z uveřejnění prostřednictvím registru smluv lze vyloučit metadata uvedená v odstavci 5 písm. a) nebo c), jsou-li tato metadata obchodním tajemstvím osoby uvedené v § 2 odst. 1 písm. e), k), l) nebo n), a to také tehdy, pokud by obchodním tajemstvím bylo až více takto uveřejněných informací zároveň.
+
+(7) Osoba uvedená v § 2 odst. 1 nebo smluvní strana smlouvy může uveřejněnou smlouvu nebo metadata smlouvy po jejich uveřejnění opravit; přitom postupuje podle odstavců 2 až 4 obdobně. Původní smlouva nebo metadata zůstávají v registru smluv uchovány.
+
+(8) V případě, že mají být z uveřejnění vyloučeny informace postupem podle § 3 odst. 1 anebo § 5 odst. 6, musí být v elektronickém obrazu textového obsahu smlouvy zaslaném správci registru smluv tyto informace znečitelněny tím, kdo zaslal smlouvu k uveřejnění prostřednictvím registru smluv.
+
+§ 6
+
+Následky uveřejnění
+
+(1) Smlouva, na niž se vztahuje povinnost uveřejnění prostřednictvím registru smluv, nabývá účinnosti nejdříve dnem uveřejnění.
+
+(2) Nezávisle na uveřejnění prostřednictvím registru smluv nabývá účinnosti smlouva, která byla uzavřena za účelem odvrácení nebo zmírnění újmy hrozící bezprostředně v souvislosti s mimořádnou událostí ohrožující život, zdraví, majetek nebo životní prostředí.
+
+§ 7
+
+Zrušení smlouvy
+
+(1) Nebyla-li smlouva, která nabývá účinnosti nejdříve dnem uveřejnění, uveřejněna prostřednictvím registru smluv ani do tří měsíců ode dne, kdy byla uzavřena, platí, že je zrušena od počátku.
+
+(2) Odstavec 1 se nepoužije, pokud nebyla prostřednictvím registru smluv uveřejněna pouze část smlouvy nebo byla nesprávně vyloučena z uveřejnění metadata z důvodu ochrany obchodního tajemství postupem podle § 5 odst. 6,
+
+a) provede-li osoba uvedená v § 2 odst. 1 nebo jiná smluvní strana opravu podle § 5 odst. 7, jíž bude dosaženo uveřejnění souladného s tímto zákonem, ve lhůtě do 30 dnů ode dne, kdy se dozvěděla o tom, že uveřejnění není souladné s tímto zákonem, byla-li dosud v dobré víře, že uveřejnění je souladné s tímto zákonem, nebo
+
+b) uveřejní-li osoba uvedená v § 2 odst. 1 nebo jiná smluvní strana neuveřejněnou část smlouvy nebo dotčená metadata prostřednictvím registru smluv jako opravu podle § 5 odst. 7 do 30 dnů ode dne, kdy jí bylo doručeno rozhodnutí nadřízeného orgánu nebo soudu, na jehož základě má být neuveřejněná část smlouvy nebo dotčená metadata poskytnuta podle předpisů upravujících svobodný přístup k informacím.
+
+(3) Jiná metadata než podle odstavce 2 lze opravit pouze ve lhůtě tří měsíců ode dne, kdy byla uzavřena smlouva, k níž se metadata vztahují; to neplatí pro opravu chyb v psaní nebo v počtech.
+
+§ 8
+
+Společná a přechodná ustanovení
+
+(1) Tento zákon se použije bez ohledu na právo, které je podle mezinárodního práva soukromého pro smlouvu právem rozhodným.
+
+(2) Smlouva, na niž se vztahuje povinnost uveřejnění prostřednictvím registru smluv, musí být uzavřena písemně.
+
+(3) Byla-li smlouva, na niž se vztahuje povinnost uveřejnění prostřednictvím registru smluv, uzavřena přede dnem nabytí účinnosti tohoto zákona a po nabytí účinnosti tohoto zákona byla uzavřena dohoda, kterou se taková smlouva doplňuje, mění, nahrazuje nebo ruší, uveřejní se prostřednictvím registru smluv spolu s touto dohodou i dotčená smlouva.
+
+(4) Je-li v souladu s tímto zákonem uveřejněna smlouva, která má být uveřejněna podle zákona o veřejných zakázkách, je tím splněna povinnost uveřejnit ji podle zákona o veřejných zakázkách; to platí obdobně o údajích uveřejňovaných jako metadata podle tohoto zákona.
+
+(5) Je-li v souladu s tímto zákonem uveřejněna smlouva, která má být uveřejněna podle jiného zákona nebo informace z ní mají být uveřejněny podle jiného zákona, je tím splněna povinnost uveřejnit ji nebo informace z ní podle takového jiného zákona; to platí obdobně o údajích uveřejňovaných jako metadata podle tohoto zákona. Pro účely věty první se jiným zákonem rozumí
+
+a) zákon o rozpočtových pravidlech územních rozpočtů, jde-li o smlouvu, která má být zveřejněna podle jeho § 10d,
+
+b) zákon o podpoře výzkumu, experimentálního vývoje a inovací, jde-li o smlouvu, o níž mají být informace veřejně přístupné prostřednictvím informačního systému výzkumu, vývoje a inovací,
+
+c) koncesní zákon, jde-li o smlouvu, o níž mají být informace veřejně přístupné prostřednictvím rejstříku koncesních smluv,
+
+d) zákon o kolektivním vyjednávání, jde-li o kolektivní smlouvu vyššího stupně, která má být zpřístupněna Ministerstvem práce a sociálních věcí na jeho internetových stránkách; povinnost oznámit uložení takové kolektivní smlouvy ve Sbírce zákonů tím není dotčena.
+
+(6) Plnění povinností podle tohoto zákona nepodléhá dozoru nebo kontrole vykonávaným podle zákonů o územních samosprávných celcích.
+
+§ 9
+
+Závěrečné ustanovení
+
+Ustanovení § 6 a 7 se použijí poprvé pro smlouvy uzavřené 1. července 2017.
+
+§ 10
+
+Účinnost
+
+Tento zákon nabývá účinnosti dnem 1. července 2016, s výjimkou § 6 a 7, které nabývají účinnosti dnem 1. července 2017.
+

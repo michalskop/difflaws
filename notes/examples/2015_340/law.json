@@ -1,0 +1,542 @@
+[
+    {
+        "caption": "§ 1",
+        "code": "1",
+        "role": "paragraf",
+        "text": "Tento zákon upravuje zvláštní podmínky účinnosti některých smluv, uveřejňování těchto smluv prostřednictvím registru smluv a registr smluv.",
+        "title": "Předmět úpravy"
+    },
+    {
+        "caption": "§ 2",
+        "code": "2",
+        "role": "paragraf",
+        "title": "Uveřejňované dokumenty",
+        "children": [
+            {
+                "caption": "(1)",
+                "code": "1",
+                "role": "odstavec",
+                "text": "Prostřednictvím registru smluv se povinně uveřejňuje soukromoprávní smlouva, jakož i smlouva o poskytnutí dotace nebo návratné finanční výpomoci, jejíž stranou je",
+                "children": [
+                    {
+                        "caption": "a)",
+                        "code": "a",
+                        "role": "pododstavec",
+                        "text": "Česká republika,"
+                    },
+                    {
+                        "caption": "b)",
+                        "code": "b",
+                        "role": "pododstavec",
+                        "text": "územní samosprávný celek, včetně městské části nebo městského obvodu územně členěného statutárního města nebo městské části hlavního města Prahy,"
+                    },
+                    {
+                        "caption": "c)",
+                        "code": "c",
+                        "role": "pododstavec",
+                        "text": "státní příspěvková organizace,"
+                    },
+                    {
+                        "caption": "d)",
+                        "code": "d",
+                        "role": "pododstavec",
+                        "text": "státní fond,"
+                    },
+                    {
+                        "caption": "e)",
+                        "code": "e",
+                        "role": "pododstavec",
+                        "text": "veřejná výzkumná instituce nebo veřejná vysoká škola,"
+                    },
+                    {
+                        "caption": "f)",
+                        "code": "f",
+                        "role": "pododstavec",
+                        "text": "dobrovolný svazek obcí,"
+                    },
+                    {
+                        "caption": "g)",
+                        "code": "g",
+                        "role": "pododstavec",
+                        "text": "regionální rada regionu soudržnosti,"
+                    },
+                    {
+                        "caption": "h)",
+                        "code": "h",
+                        "role": "pododstavec",
+                        "text": "příspěvková organizace územního samosprávného celku,"
+                    },
+                    {
+                        "caption": "i)",
+                        "code": "i",
+                        "role": "pododstavec",
+                        "text": "ústav založený státem nebo územním samosprávným celkem,"
+                    },
+                    {
+                        "caption": "j)",
+                        "code": "j",
+                        "role": "pododstavec",
+                        "text": "obecně prospěšná společnost založená státem nebo územním samosprávným celkem,"
+                    },
+                    {
+                        "caption": "k)",
+                        "code": "k",
+                        "role": "pododstavec",
+                        "text": "státní podnik nebo národní podnik,"
+                    },
+                    {
+                        "caption": "l)",
+                        "code": "l",
+                        "role": "pododstavec",
+                        "text": "zdravotní pojišťovna,"
+                    },
+                    {
+                        "caption": "m)",
+                        "code": "m",
+                        "role": "pododstavec",
+                        "text": "Český rozhlas nebo Česká televize, nebo"
+                    },
+                    {
+                        "caption": "n)",
+                        "code": "n",
+                        "role": "pododstavec",
+                        "text": "právnická osoba, v níž má stát nebo územní samosprávný celek sám nebo s jinými územními samosprávnými celky většinovou majetkovou účast, a to i prostřednictvím jiné právnické osoby."
+                    }
+                ]
+            },
+            {
+                "caption": "(2)",
+                "code": "2",
+                "role": "odstavec",
+                "text": "Odstavec 1 se nevztahuje na právnickou osobu založenou podle jiného než českého práva, která působí převážně mimo území České republiky."
+            }
+        ]
+    },
+    {
+        "caption": "§ 3",
+        "code": "3",
+        "role": "paragraf",
+        "title": "Výjimky z povinnosti uveřejnění",
+        "children": [
+            {
+                "caption": "(1)",
+                "code": "1",
+                "role": "odstavec",
+                "text": "Prostřednictvím registru smluv se neuveřejňují informace, které nelze poskytnout při postupu podle předpisů upravujících svobodný přístup k informacím."
+            },
+            {
+                "caption": "(2)",
+                "code": "2",
+                "role": "odstavec",
+                "text": "Povinnost uveřejnit prostřednictvím registru smluv se nevztahuje na",
+                "children": [
+                    {
+                        "caption": "a)",
+                        "code": "a",
+                        "role": "pododstavec",
+                        "text": "smlouvu vzniklou v rámci právního jednání s fyzickou osobou, která jedná mimo rámec své podnikatelské činnosti; to neplatí, jde-li o převod vlastnického práva osoby uvedené v § 2 odst. 1 k hmotné nemovité věci,"
+                    },
+                    {
+                        "caption": "b)",
+                        "code": "b",
+                        "role": "pododstavec",
+                        "text": "technickou předlohu, návod, výkres, projektovou dokumentaci, model, způsob výpočtu jednotkových cen, vzor a výpočet,"
+                    },
+                    {
+                        "caption": "c)",
+                        "code": "c",
+                        "role": "pododstavec",
+                        "text": "smlouvu, která se týká činnosti zpravodajských služeb a Generální inspekce bezpečnostních sborů nebo činnosti orgánů činných v trestním řízení při předcházení trestné činnosti, vyhledávání nebo odhalování trestné činnosti nebo stíhání trestných činů nebo zajišťování bezpečnosti nebo obrany České republiky,"
+                    },
+                    {
+                        "caption": "d)",
+                        "code": "d",
+                        "role": "pododstavec",
+                        "text": "smlouvu, jejíž plnění je prováděno převážně mimo území České republiky,"
+                    },
+                    {
+                        "caption": "e)",
+                        "code": "e",
+                        "role": "pododstavec",
+                        "text": "smlouvu uzavřenou adhezním způsobem, jejíž smluvní stranou je právnická osoba uvedená v § 2 odst. 1 písm. e), k), l) nebo n), s výjimkou smluv uzavřených na základě zadávacího řízení podle zákona o veřejných zakázkách,"
+                    },
+                    {
+                        "caption": "f)",
+                        "code": "f",
+                        "role": "pododstavec",
+                        "text": "smlouvy, objednávky a faktury, které se týkají činnosti orgánů, jejich členů a organizačních složek státu uvedených v § 8 odst. 3 zákona č. 218/2000 Sb., o rozpočtových pravidlech a o změně některých souvisejících zákonů (rozpočtová pravidla), a činnosti správců jejich kapitol,"
+                    },
+                    {
+                        "caption": "g)",
+                        "code": "g",
+                        "role": "pododstavec",
+                        "text": "smlouvu uzavřenou na komoditní burze, na regulovaném trhu nebo evropském regulovaném trhu, v dražbě nebo v aukci anebo jiným obdobným postupem, s nímž je spojen zvláštní způsob přechodu nebo převodu vlastnického práva,"
+                    },
+                    {
+                        "caption": "h)",
+                        "code": "h",
+                        "role": "pododstavec",
+                        "text": "smlouvu, jejíž alespoň jednou smluvní stranou je akciová společnost, jejíž cenné papíry byly přijaty k obchodování na regulovaném trhu nebo evropském regulovaném trhu, jde-li o akciovou společnost, v níž má stát nebo územní samosprávný celek sám nebo s jinými územními samosprávnými celky většinovou majetkovou účast, a to i prostřednictvím jiné právnické osoby,"
+                    },
+                    {
+                        "caption": "i)",
+                        "code": "i",
+                        "role": "pododstavec",
+                        "text": "smlouvu, jestliže výše hodnoty jejího předmětu je 50000 Kč bez daně z přidané hodnoty nebo nižší,"
+                    },
+                    {
+                        "caption": "j)",
+                        "code": "j",
+                        "role": "pododstavec",
+                        "text": "smlouvu, která je uzavřena s autorem nebo výkonným umělcem v souvislosti s autorským dílem nebo uměleckým výkonem,"
+                    },
+                    {
+                        "caption": "k)",
+                        "code": "k",
+                        "role": "pododstavec",
+                        "text": "smlouvu o poskytování a úhradě zdravotních služeb hrazených z veřejného zdravotního pojištění a smlouvu o úhradě léčivých přípravků obsahujících očkovací látky pro pravidelná očkování podle antigenního složení očkovacích látek stanoveného Ministerstvem zdravotnictví podle zákona o ochraně veřejného zdraví, které jsou uveřejňovány podle zákona o veřejném zdravotním pojištění,"
+                    },
+                    {
+                        "caption": "l)",
+                        "code": "l",
+                        "role": "pododstavec",
+                        "text": "smlouvu, jejíž alespoň jednou smluvní stranou je obec, která nevykonává rozšířenou působnost, příspěvková organizace touto obcí zřízená nebo právnická osoba, v níž má taková obec sama nebo s jinými takovými obcemi většinovou účast."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "caption": "§ 4",
+        "code": "4",
+        "role": "paragraf",
+        "title": "Registr smluv",
+        "children": [
+            {
+                "caption": "(1)",
+                "code": "1",
+                "role": "odstavec",
+                "text": "Zřizuje se registr smluv jako informační systém veřejné správy, který slouží k uveřejňování smluv podle tohoto zákona."
+            },
+            {
+                "caption": "(2)",
+                "code": "2",
+                "role": "odstavec",
+                "text": "Správcem registru smluv je Ministerstvo vnitra."
+            },
+            {
+                "caption": "(3)",
+                "code": "3",
+                "role": "odstavec",
+                "text": "Registr smluv je přístupný způsobem umožňujícím bezplatný dálkový přístup."
+            },
+            {
+                "caption": "(4)",
+                "code": "4",
+                "role": "odstavec",
+                "text": "Správce registru smluv neodpovídá za správnost smluv a metadat smluv uveřejněných prostřednictvím registru smluv."
+            }
+        ]
+    },
+    {
+        "caption": "§ 5",
+        "code": "5",
+        "role": "paragraf",
+        "title": "Způsob uveřejnění",
+        "children": [
+            {
+                "caption": "(1)",
+                "code": "1",
+                "role": "odstavec",
+                "text": "Uveřejněním smlouvy prostřednictvím registru smluv se rozumí vložení elektronického obrazu textového obsahu smlouvy v otevřeném a strojově čitelném formátu a rovněž metadat podle odstavce 5 do registru smluv."
+            },
+            {
+                "caption": "(2)",
+                "code": "2",
+                "role": "odstavec",
+                "children": [
+                    {
+                        "code": 1,
+                        "role": "věta",
+                        "text": "Osoba uvedená v § 2 odst. 1 nebo smluvní strana smlouvy zašle smlouvu správci registru smluv k uveřejnění prostřednictvím registru smluv bez zbytečného odkladu, nejpozději však do 30 dnů od uzavření smlouvy."
+                    },
+                    {
+                        "code": 2,
+                        "role": "věta",
+                        "text": "Správce registru smluv uveřejní smlouvu prostřednictvím registru smluv bezodkladně po jejím doručení; uveřejnění smlouvy prostřednictvím registru smluv se provádí zpravidla automatizovaně."
+                    }
+                ]
+            },
+            {
+                "caption": "(3)",
+                "code": "3",
+                "role": "odstavec",
+                "children": [
+                    {
+                        "code": 1,
+                        "role": "věta",
+                        "text": "Zaslání smlouvy správci registru smluv se provede na elektronickém formuláři do datové schránky zřízené správci registru smluv pro tento účel."
+                    },
+                    {
+                        "code": 2,
+                        "role": "věta",
+                        "text": "Správce registru smluv uveřejní elektronický formulář na portálu veřejné správy."
+                    }
+                ]
+            },
+            {
+                "caption": "(4)",
+                "code": "4",
+                "role": "odstavec",
+                "children": [
+                    {
+                        "code": 1,
+                        "role": "věta",
+                        "text": "V případě, že je prostřednictvím registru smluv uveřejněna smlouva, správce registru smluv potvrdí uveřejnění potvrzením, které zašle do datové schránky, ze které mu byla smlouva zaslána k uveřejnění prostřednictvím registru smluv; zaslání potvrzení se provádí zpravidla automatizovaně."
+                    },
+                    {
+                        "code": 2,
+                        "role": "věta",
+                        "text": "Správce registru smluv v potvrzení uvede metadata smlouvy podle odstavce 5 a potvrzení zabezpečí způsobem zajišťujícím integritu, případně původ dat."
+                    }
+                ]
+            },
+            {
+                "caption": "(5)",
+                "code": "5",
+                "role": "odstavec",
+                "children": [
+                    {
+                        "role": "block",
+                        "text": "Smlouva, která nebyla uveřejněna způsobem uvedeným v odstavci 1 nebo jejíž metadata neobsahují"
+                    },
+                    {
+                        "role": "block",
+                        "children": [
+                            {
+                                "caption": "a)",
+                                "code": "a",
+                                "role": "pododstavec",
+                                "text": "identifikaci smluvních stran,"
+                            },
+                            {
+                                "caption": "b)",
+                                "code": "b",
+                                "role": "pododstavec",
+                                "text": "vymezení předmětu smlouvy,"
+                            },
+                            {
+                                "caption": "c)",
+                                "code": "c",
+                                "role": "pododstavec",
+                                "text": "cenu, a pokud ji smlouva neobsahuje, hodnotu předmětu smlouvy, lze-li ji určit,"
+                            },
+                            {
+                                "caption": "d)",
+                                "code": "d",
+                                "role": "pododstavec",
+                                "text": "datum uzavření smlouvy,"
+                            }
+                        ]
+                    },
+                    {
+                        "role": "block",
+                        "text": "se nepovažuje za uveřejněnou prostřednictvím registru smluv."
+                    }
+                ]
+            },
+            {
+                "caption": "(6)",
+                "code": "6",
+                "role": "odstavec",
+                "text": "Z uveřejnění prostřednictvím registru smluv lze vyloučit metadata uvedená v odstavci 5 písm. a) nebo c), jsou-li tato metadata obchodním tajemstvím osoby uvedené v § 2 odst. 1 písm. e), k), l) nebo n), a to také tehdy, pokud by obchodním tajemstvím bylo až více takto uveřejněných informací zároveň."
+            },
+            {
+                "caption": "(7)",
+                "code": "7",
+                "role": "odstavec",
+                "children": [
+                    {
+                        "code": 1,
+                        "role": "věta",
+                        "text": "Osoba uvedená v § 2 odst. 1 nebo smluvní strana smlouvy může uveřejněnou smlouvu nebo metadata smlouvy po jejich uveřejnění opravit; přitom postupuje podle odstavců 2 až 4 obdobně."
+                    },
+                    {
+                        "code": 2,
+                        "role": "věta",
+                        "text": "Původní smlouva nebo metadata zůstávají v registru smluv uchovány."
+                    }
+                ]
+            },
+            {
+                "caption": "(8)",
+                "code": "8",
+                "role": "odstavec",
+                "text": "V případě, že mají být z uveřejnění vyloučeny informace postupem podle § 3 odst. 1 anebo § 5 odst. 6, musí být v elektronickém obrazu textového obsahu smlouvy zaslaném správci registru smluv tyto informace znečitelněny tím, kdo zaslal smlouvu k uveřejnění prostřednictvím registru smluv."
+            }
+        ]
+    },
+    {
+        "caption": "§ 6",
+        "code": "6",
+        "role": "paragraf",
+        "title": "Následky uveřejnění",
+        "children": [
+            {
+                "caption": "(1)",
+                "code": "1",
+                "role": "odstavec",
+                "text": "Smlouva, na niž se vztahuje povinnost uveřejnění prostřednictvím registru smluv, nabývá účinnosti nejdříve dnem uveřejnění."
+            },
+            {
+                "caption": "(2)",
+                "code": "2",
+                "role": "odstavec",
+                "text": "Nezávisle na uveřejnění prostřednictvím registru smluv nabývá účinnosti smlouva, která byla uzavřena za účelem odvrácení nebo zmírnění újmy hrozící bezprostředně v souvislosti s mimořádnou událostí ohrožující život, zdraví, majetek nebo životní prostředí."
+            }
+        ]
+    },
+    {
+        "caption": "§ 7",
+        "code": "7",
+        "role": "paragraf",
+        "title": "Zrušení smlouvy",
+        "children": [
+            {
+                "caption": "(1)",
+                "code": "1",
+                "role": "odstavec",
+                "text": "Nebyla-li smlouva, která nabývá účinnosti nejdříve dnem uveřejnění, uveřejněna prostřednictvím registru smluv ani do tří měsíců ode dne, kdy byla uzavřena, platí, že je zrušena od počátku."
+            },
+            {
+                "caption": "(2)",
+                "code": "2",
+                "role": "odstavec",
+                "text": "Odstavec 1 se nepoužije, pokud nebyla prostřednictvím registru smluv uveřejněna pouze část smlouvy nebo byla nesprávně vyloučena z uveřejnění metadata z důvodu ochrany obchodního tajemství postupem podle § 5 odst. 6,",
+                "children": [
+                    {
+                        "caption": "a)",
+                        "code": "a",
+                        "role": "pododstavec",
+                        "text": "provede-li osoba uvedená v § 2 odst. 1 nebo jiná smluvní strana opravu podle § 5 odst. 7, jíž bude dosaženo uveřejnění souladného s tímto zákonem, ve lhůtě do 30 dnů ode dne, kdy se dozvěděla o tom, že uveřejnění není souladné s tímto zákonem, byla-li dosud v dobré víře, že uveřejnění je souladné s tímto zákonem, nebo"
+                    },
+                    {
+                        "caption": "b)",
+                        "code": "b",
+                        "role": "pododstavec",
+                        "text": "uveřejní-li osoba uvedená v § 2 odst. 1 nebo jiná smluvní strana neuveřejněnou část smlouvy nebo dotčená metadata prostřednictvím registru smluv jako opravu podle § 5 odst. 7 do 30 dnů ode dne, kdy jí bylo doručeno rozhodnutí nadřízeného orgánu nebo soudu, na jehož základě má být neuveřejněná část smlouvy nebo dotčená metadata poskytnuta podle předpisů upravujících svobodný přístup k informacím."
+                    }
+                ]
+            },
+            {
+                "caption": "(3)",
+                "code": "3",
+                "role": "odstavec",
+                "text": "Jiná metadata než podle odstavce 2 lze opravit pouze ve lhůtě tří měsíců ode dne, kdy byla uzavřena smlouva, k níž se metadata vztahují; to neplatí pro opravu chyb v psaní nebo v počtech."
+            }
+        ]
+    },
+    {
+        "caption": "§ 8",
+        "code": "8",
+        "role": "paragraf",
+        "title": "Společná a přechodná ustanovení",
+        "children": [
+            {
+                "caption": "(1)",
+                "code": "1",
+                "role": "odstavec",
+                "text": "Tento zákon se použije bez ohledu na právo, které je podle mezinárodního práva soukromého pro smlouvu právem rozhodným."
+            },
+            {
+                "caption": "(2)",
+                "code": "2",
+                "role": "odstavec",
+                "text": "Smlouva, na niž se vztahuje povinnost uveřejnění prostřednictvím registru smluv, musí být uzavřena písemně."
+            },
+            {
+                "caption": "(3)",
+                "code": "3",
+                "role": "odstavec",
+                "text": "Byla-li smlouva, na niž se vztahuje povinnost uveřejnění prostřednictvím registru smluv, uzavřena přede dnem nabytí účinnosti tohoto zákona a po nabytí účinnosti tohoto zákona byla uzavřena dohoda, kterou se taková smlouva doplňuje, mění, nahrazuje nebo ruší, uveřejní se prostřednictvím registru smluv spolu s touto dohodou i dotčená smlouva."
+            },
+            {
+                "caption": "(4)",
+                "code": "4",
+                "role": "odstavec",
+                "text": "Je-li v souladu s tímto zákonem uveřejněna smlouva, která má být uveřejněna podle zákona o veřejných zakázkách, je tím splněna povinnost uveřejnit ji podle zákona o veřejných zakázkách; to platí obdobně o údajích uveřejňovaných jako metadata podle tohoto zákona."
+            },
+            {
+                "caption": "(5)",
+                "code": "5",
+                "role": "odstavec",
+                "children": [
+                    {
+                        "role": "block",
+                        "children": [
+                            {
+                                "code": 1,
+                                "role": "věta",
+                                "text": "Je-li v souladu s tímto zákonem uveřejněna smlouva, která má být uveřejněna podle jiného zákona nebo informace z ní mají být uveřejněny podle jiného zákona, je tím splněna povinnost uveřejnit ji nebo informace z ní podle takového jiného zákona; to platí obdobně o údajích uveřejňovaných jako metadata podle tohoto zákona."
+                            },
+                            {
+                                "code": 2,
+                                "role": "věta",
+                                "text": "Pro účely věty první se jiným zákonem rozumí"
+                            }
+                        ]
+                    },
+                    {
+                        "role": "block",
+                        "children": [
+                            {
+                                "caption": "a)",
+                                "code": "a",
+                                "role": "pododstavec",
+                                "text": "zákon o rozpočtových pravidlech územních rozpočtů, jde-li o smlouvu, která má být zveřejněna podle jeho § 10d,"
+                            },
+                            {
+                                "caption": "b)",
+                                "code": "b",
+                                "role": "pododstavec",
+                                "text": "zákon o podpoře výzkumu, experimentálního vývoje a inovací, jde-li o smlouvu, o níž mají být informace veřejně přístupné prostřednictvím informačního systému výzkumu, vývoje a inovací,"
+                            },
+                            {
+                                "caption": "c)",
+                                "code": "c",
+                                "role": "pododstavec",
+                                "text": "koncesní zákon, jde-li o smlouvu, o níž mají být informace veřejně přístupné prostřednictvím rejstříku koncesních smluv,"
+                            },
+                            {
+                                "caption": "d)",
+                                "code": "d",
+                                "role": "pododstavec",
+                                "text": "zákon o kolektivním vyjednávání, jde-li o kolektivní smlouvu vyššího stupně, která má být zpřístupněna Ministerstvem práce a sociálních věcí na jeho internetových stránkách; povinnost oznámit uložení takové kolektivní smlouvy ve Sbírce zákonů tím není dotčena."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "caption": "(6)",
+                "code": "6",
+                "role": "odstavec",
+                "text": "Plnění povinností podle tohoto zákona nepodléhá dozoru nebo kontrole vykonávaným podle zákonů o územních samosprávných celcích."
+            }
+        ]
+    },
+    {
+        "caption": "§ 9",
+        "code": "9",
+        "role": "paragraf",
+        "title": "Závěrečné ustanovení",
+        "text": "Ustanovení § 6 a 7 se použijí poprvé pro smlouvy uzavřené 1. července 2017."
+    },
+    {
+        "caption": "§ 10",
+        "code": "10",
+        "role": "paragraf",
+        "title": "Účinnost",
+        "text": "Tento zákon nabývá účinnosti dnem 1. července 2016, s výjimkou § 6 a 7, které nabývají účinnosti dnem 1. července 2017."
+    }
+]
